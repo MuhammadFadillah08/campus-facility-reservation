@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#bg)"/>
+  <!-- Owl -->
+  <ellipse cx="50" cy="70" rx="22" ry="25" fill="#ffffff"/>
+  <circle cx="50" cy="40" r="20" fill="#ffffff"/>
+  <polygon points="32,23 27,10 40,21" fill="#ffffff"/>
+  <polygon points="68,23 73,10 60,21" fill="#ffffff"/>
+  <ellipse cx="32" cy="71" rx="10" ry="18" fill="rgba(255,255,255,0.72)" transform="rotate(-10,32,71)"/>
+  <ellipse cx="68" cy="71" rx="10" ry="18" fill="rgba(255,255,255,0.72)" transform="rotate(10,68,71)"/>
+  <circle cx="41" cy="38" r="9.5" fill="#16a34a"/>
+  <circle cx="59" cy="38" r="9.5" fill="#16a34a"/>
+  <circle cx="41" cy="38" r="5.8" fill="#fbbf24"/>
+  <circle cx="59" cy="38" r="5.8" fill="#fbbf24"/>
+  <circle cx="41" cy="38" r="3" fill="#0c1a0e"/>
+  <circle cx="59" cy="38" r="3" fill="#0c1a0e"/>
+  <circle cx="39.3" cy="36.3" r="1.3" fill="#ffffff"/>
+  <circle cx="57.3" cy="36.3" r="1.3" fill="#ffffff"/>
+  <polygon points="50,46 43,54 57,54" fill="#d97706"/>
+</svg>

@@ -1,0 +1,23 @@
+# Kredensial & konfigurasi lokal — jangan pernah di-commit
+includes/config.local.php
+.env
+
+# Berkas unggahan pengguna (foto ruangan, surat peminjaman)
+uploads/ruangan/*
+uploads/surat/*
+!uploads/ruangan/.gitkeep
+!uploads/surat/.gitkeep
+
+# Dependensi (tidak dipakai kode; PHPMailer tidak diperlukan)
+vendor/
+
+# Foto kampus / logo institusi (opsional, tambahkan sendiri di lokal)
+assets/images/campus-*
+assets/images/logo.png
+
+# Editor / OS / log
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store

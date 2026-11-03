@@ -1,0 +1,7 @@
+# Blokir eksekusi PHP di folder uploads (keamanan)
+<FilesMatch "\.(php|php3|php4|php5|phtml|phar|shtml)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+Options -Indexes

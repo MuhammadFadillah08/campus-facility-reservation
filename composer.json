@@ -1,0 +1,8 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^7.1"
+    },
+    "config": {
+        "platform-check": false
+    }
+}

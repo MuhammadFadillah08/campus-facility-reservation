@@ -13,6 +13,9 @@ repository are **fictional placeholders** (`Universitas Contoh`, `university.exa
 - **Roles** — main admin, department admins, student-council (DMF) admin, and users.
 - **Booking flow** — users request a room with an official letter (upload); the responsible
   admin validates. Availability is checked against approved bookings and the class schedule.
+- **Conflict resolution (AHP–SAW)** — overlapping requests for the same room are flagged and
+  ranked automatically: AHP defines the criteria weights (with a consistency check),
+  SAW computes a preference score per request (`admin/bookings.php`).
 - **Room recommendation** (`user/rekomendasi.php`) — decision-tree style suggestions by
   capacity, facilities and time.
 - **Bulk tools** — Excel (`.xlsx`) templates and importers for rooms, class schedules and
@@ -20,6 +23,17 @@ repository are **fictional placeholders** (`Universitas Contoh`, `university.exa
 - **Reports** — monthly reports with a printable letterhead (`admin/report_print.php`).
 - **Outdoor areas** — requests routed to one of four WhatsApp groups by the requester's organisation.
 - **Auth** — students sign in with an e-mail **OTP**; admins use e-mail + password.
+
+## Screenshots
+
+All screenshots show fictional demo data. The booking list marks overlapping requests and
+shows their AHP–SAW score.
+
+| Landing page | Admin dashboard |
+|---|---|
+| ![Landing page](docs/screenshots/01-landing.png) | ![Admin dashboard](docs/screenshots/02-dashboard-admin.png) |
+| **Booking validation with conflict ranking** | **Room list (student view)** |
+| ![Booking validation](docs/screenshots/03-validasi-peminjaman.png) | ![Room list](docs/screenshots/04-daftar-ruangan.png) |
 
 ## Quick start (XAMPP)
 
